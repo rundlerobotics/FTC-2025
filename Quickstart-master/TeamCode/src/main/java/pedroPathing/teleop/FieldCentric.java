@@ -1,4 +1,4 @@
-package pedroPathing.examples;
+package pedroPathing.teleop;
 
 import com.pedropathing.follower.Follower;
 import com.pedropathing.localization.Pose;
@@ -16,7 +16,7 @@ import pedroPathing.constants.LConstants;
  * @version 2.0, 12/30/2024
  */
 //Hello
-@TeleOp(name = "Aura Tele-Op", group = "Op")
+@TeleOp(name = "Aura teleop", group = "Op")
 public class FieldCentric extends OpMode {
     private Follower follower;
     private final Pose startPose = new Pose(0,0,0);
